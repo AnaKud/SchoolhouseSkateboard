@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E347502C24B1C3DD009F461F /* MenuLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E347502B24B1C3DD009F461F /* MenuLayer.swift */; };
+		E347502F24B1CE5C009F461F /* gem.wav in Resources */ = {isa = PBXBuildFile; fileRef = E347502D24B1CE5C009F461F /* gem.wav */; };
+		E347503024B1CE5C009F461F /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = E347502E24B1CE5C009F461F /* jump.wav */; };
+		E347503224B1CF3B009F461F /* Sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = E347503124B1CF3B009F461F /* Sparks.sks */; };
 		E34A77CF24AA4D1200DC15B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A77CE24AA4D1200DC15B4 /* AppDelegate.swift */; };
 		E34A77D124AA4D1200DC15B4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E34A77D024AA4D1200DC15B4 /* GameScene.sks */; };
 		E34A77D324AA4D1200DC15B4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E34A77D224AA4D1200DC15B4 /* Actions.sks */; };
@@ -15,9 +19,14 @@
 		E34A77DA24AA4D1200DC15B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34A77D824AA4D1200DC15B4 /* Main.storyboard */; };
 		E34A77DC24AA4D1400DC15B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34A77DB24AA4D1400DC15B4 /* Assets.xcassets */; };
 		E34A77DF24AA4D1400DC15B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34A77DD24AA4D1400DC15B4 /* LaunchScreen.storyboard */; };
+		E34A77E724AA7AAF00DC15B4 /* Skater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A77E624AA7AAF00DC15B4 /* Skater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E347502B24B1C3DD009F461F /* MenuLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLayer.swift; sourceTree = "<group>"; };
+		E347502D24B1CE5C009F461F /* gem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gem.wav; sourceTree = "<group>"; };
+		E347502E24B1CE5C009F461F /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		E347503124B1CF3B009F461F /* Sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Sparks.sks; sourceTree = "<group>"; };
 		E34A77CB24AA4D1200DC15B4 /* SchoolhouseSkateboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolhouseSkateboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34A77CE24AA4D1200DC15B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34A77D024AA4D1200DC15B4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +37,7 @@
 		E34A77DB24AA4D1400DC15B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34A77DE24AA4D1400DC15B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E34A77E024AA4D1400DC15B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34A77E624AA7AAF00DC15B4 /* Skater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +76,14 @@
 				E34A77D424AA4D1200DC15B4 /* GameScene.swift */,
 				E34A77D624AA4D1200DC15B4 /* GameViewController.swift */,
 				E34A77D824AA4D1200DC15B4 /* Main.storyboard */,
+				E34A77E024AA4D1400DC15B4 /* Info.plist */,
+				E347502D24B1CE5C009F461F /* gem.wav */,
+				E347502E24B1CE5C009F461F /* jump.wav */,
 				E34A77DB24AA4D1400DC15B4 /* Assets.xcassets */,
 				E34A77DD24AA4D1400DC15B4 /* LaunchScreen.storyboard */,
-				E34A77E024AA4D1400DC15B4 /* Info.plist */,
+				E34A77E624AA7AAF00DC15B4 /* Skater.swift */,
+				E347502B24B1C3DD009F461F /* MenuLayer.swift */,
+				E347503124B1CF3B009F461F /* Sparks.sks */,
 			);
 			path = SchoolhouseSkateboard;
 			sourceTree = "<group>";
@@ -131,11 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E347502F24B1CE5C009F461F /* gem.wav in Resources */,
 				E34A77DA24AA4D1200DC15B4 /* Main.storyboard in Resources */,
 				E34A77D124AA4D1200DC15B4 /* GameScene.sks in Resources */,
+				E347503024B1CE5C009F461F /* jump.wav in Resources */,
 				E34A77DC24AA4D1400DC15B4 /* Assets.xcassets in Resources */,
 				E34A77DF24AA4D1400DC15B4 /* LaunchScreen.storyboard in Resources */,
 				E34A77D324AA4D1200DC15B4 /* Actions.sks in Resources */,
+				E347503224B1CF3B009F461F /* Sparks.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E34A77D524AA4D1200DC15B4 /* GameScene.swift in Sources */,
+				E34A77E724AA7AAF00DC15B4 /* Skater.swift in Sources */,
+				E347502C24B1C3DD009F461F /* MenuLayer.swift in Sources */,
 				E34A77D724AA4D1200DC15B4 /* GameViewController.swift in Sources */,
 				E34A77CF24AA4D1200DC15B4 /* AppDelegate.swift in Sources */,
 			);
@@ -295,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KD4B6U375X;
 				INFOPLIST_FILE = SchoolhouseSkateboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AnaKud.SchoolhouseSkateboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KD4B6U375X;
 				INFOPLIST_FILE = SchoolhouseSkateboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AnaKud.SchoolhouseSkateboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
